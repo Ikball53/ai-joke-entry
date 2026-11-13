@@ -13,7 +13,11 @@ beats, punchline in the last clause. (v2's lesson: the style-guide
 joke scored 83.45% — solid, but its hallucination-adjacent lane is
 crowded; this entry moves to a fresh target with the top-5 shape.)
 Deterministic, stdlib only, no
-network, no randomness. Writes the joke exactly (no trailing newline)
+network, no randomness. Lineage: v1 (halting problem) scored 70.26%
+live, rank 35; v2 (style guide) scored 83.45%, rank 13, then slid
+to rank 30 as the field grew to 669 judged entries — still the $2
+band (11-30). v3 aims at the top 5 (88-89%) with the same shape on
+a fresh target. Writes the joke exactly (no trailing newline)
 to $MAKEFUN_OUTPUT_DIR/entry.txt, or /output/entry.txt when unset.
 """
 
